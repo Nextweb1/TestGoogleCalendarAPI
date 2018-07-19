@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2AF92DDD1CB17D5A00342ECF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AF92DDC1CB17D5A00342ECF /* Assets.xcassets */; };
+		2AF92DF21CB18FF500342ECF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF92DF01CB18FF500342ECF /* main.m */; };
+		2AF92E061CB1A29C00342ECF /* GCAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF92E051CB1A29C00342ECF /* GCAAppDelegate.m */; };
+		2AF92E091CB1A2AD00342ECF /* GCAFetchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF92E081CB1A2AD00342ECF /* GCAFetchViewController.m */; };
+		2AF92E0D1CB1A6B300342ECF /* GCAEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF92E0C1CB1A6B300342ECF /* GCAEvent.m */; };
+		2AFA98631CB9667E00925749 /* GCAEventsSearchResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AFA98621CB9667E00925749 /* GCAEventsSearchResponse.m */; };
+		2AFA98661CB993B900925749 /* GCAEventsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AFA98651CB993B900925749 /* GCAEventsListViewController.m */; };
+		35501FDF20FF3AFB0060A3D6 /* GCASplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35501FDE20FF3AFA0060A3D6 /* GCASplashViewController.m */; };
+		35501FE220FF3B340060A3D6 /* GCALoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35501FE120FF3B340060A3D6 /* GCALoginViewController.m */; };
+		35501FE420FF3EAB0060A3D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35501FE320FF3EAA0060A3D6 /* Foundation.framework */; };
+		35501FE620FF3EB30060A3D6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35501FE520FF3EB30060A3D6 /* QuartzCore.framework */; };
+		35501FE820FF3EB90060A3D6 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35501FE720FF3EB90060A3D6 /* Security.framework */; };
+		35501FEA20FF3EC10060A3D6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35501FE920FF3EC10060A3D6 /* SystemConfiguration.framework */; };
+		35501FEC20FF3ECC0060A3D6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35501FEB20FF3ECC0060A3D6 /* UIKit.framework */; };
+		E8DF9CCEC63DA156D5FFBB25 /* libPods-GoogleCalendarApi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 83E4DBEB9CBF31CEEC09AF55 /* libPods-GoogleCalendarApi.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2AF92DCD1CB17D5A00342ECF /* GoogleCalendarApi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleCalendarApi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AF92DDC1CB17D5A00342ECF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2AF92DEE1CB18FF500342ECF /* GoogleCalendarApi-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "GoogleCalendarApi-Prefix.pch"; path = "Sources/GoogleCalendarApi-Prefix.pch"; sourceTree = "<group>"; };
+		2AF92DEF1CB18FF500342ECF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Sources/Info.plist; sourceTree = "<group>"; };
+		2AF92DF01CB18FF500342ECF /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Sources/main.m; sourceTree = "<group>"; };
+		2AF92E041CB1A29C00342ECF /* GCAAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GCAAppDelegate.h; path = Classes/Delegates/GCAAppDelegate.h; sourceTree = "<group>"; };
+		2AF92E051CB1A29C00342ECF /* GCAAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GCAAppDelegate.m; path = Classes/Delegates/GCAAppDelegate.m; sourceTree = "<group>"; };
+		2AF92E071CB1A2AD00342ECF /* GCAFetchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GCAFetchViewController.h; path = Classes/Controllers/GCAFetchViewController.h; sourceTree = "<group>"; };
+		2AF92E081CB1A2AD00342ECF /* GCAFetchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GCAFetchViewController.m; path = Classes/Controllers/GCAFetchViewController.m; sourceTree = "<group>"; };
+		2AF92E0B1CB1A6B300342ECF /* GCAEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GCAEvent.h; path = Classes/Models/GCAEvent.h; sourceTree = "<group>"; };
+		2AF92E0C1CB1A6B300342ECF /* GCAEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GCAEvent.m; path = Classes/Models/GCAEvent.m; sourceTree = "<group>"; };
+		2AFA98611CB9667E00925749 /* GCAEventsSearchResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GCAEventsSearchResponse.h; path = Classes/Models/GCAEventsSearchResponse.h; sourceTree = "<group>"; };
+		2AFA98621CB9667E00925749 /* GCAEventsSearchResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GCAEventsSearchResponse.m; path = Classes/Models/GCAEventsSearchResponse.m; sourceTree = "<group>"; };
+		2AFA98641CB993B900925749 /* GCAEventsListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GCAEventsListViewController.h; path = Classes/Controllers/GCAEventsListViewController.h; sourceTree = "<group>"; };
+		2AFA98651CB993B900925749 /* GCAEventsListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GCAEventsListViewController.m; path = Classes/Controllers/GCAEventsListViewController.m; sourceTree = "<group>"; };
+		35501FDD20FF3AFA0060A3D6 /* GCASplashViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCASplashViewController.h; sourceTree = "<group>"; };
+		35501FDE20FF3AFA0060A3D6 /* GCASplashViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCASplashViewController.m; sourceTree = "<group>"; };
+		35501FE020FF3B340060A3D6 /* GCALoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCALoginViewController.h; sourceTree = "<group>"; };
+		35501FE120FF3B340060A3D6 /* GCALoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCALoginViewController.m; sourceTree = "<group>"; };
+		35501FE320FF3EAA0060A3D6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		35501FE520FF3EB30060A3D6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		35501FE720FF3EB90060A3D6 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		35501FE920FF3EC10060A3D6 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		35501FEB20FF3ECC0060A3D6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		35CCDBCF2100297500B23A80 /* GlobalConstant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlobalConstant.h; sourceTree = "<group>"; };
+		4254C3B66082A8991A20AFB8 /* Pods-GoogleCalendarApi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleCalendarApi.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleCalendarApi/Pods-GoogleCalendarApi.release.xcconfig"; sourceTree = "<group>"; };
+		83E4DBEB9CBF31CEEC09AF55 /* libPods-GoogleCalendarApi.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GoogleCalendarApi.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACCB633F7AAEC12298C8FEA7 /* Pods-GoogleCalendarApi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleCalendarApi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleCalendarApi/Pods-GoogleCalendarApi.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2AF92DCA1CB17D5A00342ECF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35501FEC20FF3ECC0060A3D6 /* UIKit.framework in Frameworks */,
+				35501FEA20FF3EC10060A3D6 /* SystemConfiguration.framework in Frameworks */,
+				35501FE820FF3EB90060A3D6 /* Security.framework in Frameworks */,
+				35501FE620FF3EB30060A3D6 /* QuartzCore.framework in Frameworks */,
+				35501FE420FF3EAB0060A3D6 /* Foundation.framework in Frameworks */,
+				E8DF9CCEC63DA156D5FFBB25 /* libPods-GoogleCalendarApi.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27EADB74204BF3BA93A0CC41 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ACCB633F7AAEC12298C8FEA7 /* Pods-GoogleCalendarApi.debug.xcconfig */,
+				4254C3B66082A8991A20AFB8 /* Pods-GoogleCalendarApi.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2AF92DC41CB17D5A00342ECF = {
+			isa = PBXGroup;
+			children = (
+				2AF92E031CB1A28200342ECF /* Classes */,
+				2AF92E0A1CB1A61C00342ECF /* Resources */,
+				2AF92DD01CB17D5A00342ECF /* Sources */,
+				2AF92DCE1CB17D5A00342ECF /* Products */,
+				27EADB74204BF3BA93A0CC41 /* Pods */,
+				AC41561AB19987D1DC8B8D00 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2AF92DCE1CB17D5A00342ECF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2AF92DCD1CB17D5A00342ECF /* GoogleCalendarApi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2AF92DD01CB17D5A00342ECF /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				2AF92DEE1CB18FF500342ECF /* GoogleCalendarApi-Prefix.pch */,
+				2AF92DEF1CB18FF500342ECF /* Info.plist */,
+				2AF92DF01CB18FF500342ECF /* main.m */,
+			);
+			name = Sources;
+			path = GoogleCalendarApi;
+			sourceTree = "<group>";
+		};
+		2AF92DFF1CB1A14100342ECF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2AF92E0B1CB1A6B300342ECF /* GCAEvent.h */,
+				2AF92E0C1CB1A6B300342ECF /* GCAEvent.m */,
+				2AFA98611CB9667E00925749 /* GCAEventsSearchResponse.h */,
+				2AFA98621CB9667E00925749 /* GCAEventsSearchResponse.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		2AF92E001CB1A15100342ECF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		2AF92E011CB1A15700342ECF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				35501FDD20FF3AFA0060A3D6 /* GCASplashViewController.h */,
+				35501FDE20FF3AFA0060A3D6 /* GCASplashViewController.m */,
+				35501FE020FF3B340060A3D6 /* GCALoginViewController.h */,
+				35501FE120FF3B340060A3D6 /* GCALoginViewController.m */,
+				2AF92E071CB1A2AD00342ECF /* GCAFetchViewController.h */,
+				2AF92E081CB1A2AD00342ECF /* GCAFetchViewController.m */,
+				2AFA98641CB993B900925749 /* GCAEventsListViewController.h */,
+				2AFA98651CB993B900925749 /* GCAEventsListViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		2AF92E021CB1A21300342ECF /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				2AF92E041CB1A29C00342ECF /* GCAAppDelegate.h */,
+				2AF92E051CB1A29C00342ECF /* GCAAppDelegate.m */,
+			);
+			name = Delegates;
+			sourceTree = "<group>";
+		};
+		2AF92E031CB1A28200342ECF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				35CCDBCE2100294600B23A80 /* Utility */,
+				2AF92E021CB1A21300342ECF /* Delegates */,
+				2AF92E011CB1A15700342ECF /* Controllers */,
+				2AF92E001CB1A15100342ECF /* Views */,
+				2AF92DFF1CB1A14100342ECF /* Models */,
+			);
+			name = Classes;
+			path = GoogleCalendarApi;
+			sourceTree = "<group>";
+		};
+		2AF92E0A1CB1A61C00342ECF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2AF92DDC1CB17D5A00342ECF /* Assets.xcassets */,
+			);
+			name = Resources;
+			path = GoogleCalendarApi;
+			sourceTree = "<group>";
+		};
+		35CCDBCE2100294600B23A80 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				35CCDBCF2100297500B23A80 /* GlobalConstant.h */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+		AC41561AB19987D1DC8B8D00 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				35501FEB20FF3ECC0060A3D6 /* UIKit.framework */,
+				35501FE920FF3EC10060A3D6 /* SystemConfiguration.framework */,
+				35501FE720FF3EB90060A3D6 /* Security.framework */,
+				35501FE520FF3EB30060A3D6 /* QuartzCore.framework */,
+				35501FE320FF3EAA0060A3D6 /* Foundation.framework */,
+				83E4DBEB9CBF31CEEC09AF55 /* libPods-GoogleCalendarApi.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2AF92DCC1CB17D5A00342ECF /* GoogleCalendarApi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AF92DE41CB17D5A00342ECF /* Build configuration list for PBXNativeTarget "GoogleCalendarApi" */;
+			buildPhases = (
+				141ACFAD785E3F75492B81CE /* [CP] Check Pods Manifest.lock */,
+				E7BBE17D0DB1C70D98E44D35 /* 📦 Check Pods Manifest.lock */,
+				2AF92DC91CB17D5A00342ECF /* Sources */,
+				2AF92DCA1CB17D5A00342ECF /* Frameworks */,
+				2AF92DCB1CB17D5A00342ECF /* Resources */,
+				BC65904C4533A4167A6737F5 /* 📦 Copy Pods Resources */,
+				56666FFCC8B0892451195A4E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoogleCalendarApi;
+			productName = GoogleCalendarApi;
+			productReference = 2AF92DCD1CB17D5A00342ECF /* GoogleCalendarApi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2AF92DC51CB17D5A00342ECF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = HipoBlog;
+				TargetAttributes = {
+					2AF92DCC1CB17D5A00342ECF = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 9N2Z33M7SN;
+					};
+				};
+			};
+			buildConfigurationList = 2AF92DC81CB17D5A00342ECF /* Build configuration list for PBXProject "GoogleCalendarApi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2AF92DC41CB17D5A00342ECF;
+			productRefGroup = 2AF92DCE1CB17D5A00342ECF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2AF92DCC1CB17D5A00342ECF /* GoogleCalendarApi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2AF92DCB1CB17D5A00342ECF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AF92DDD1CB17D5A00342ECF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		141ACFAD785E3F75492B81CE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoogleCalendarApi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		56666FFCC8B0892451195A4E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GoogleCalendarApi/Pods-GoogleCalendarApi-resources.sh",
+				"${PODS_ROOT}/GTMOAuth2/Source/Touch/GTMOAuth2ViewTouch.xib",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+				"${PODS_ROOT}/JGProgressHUD/JGProgressHUD/JGProgressHUD/JGProgressHUD Resources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GTMOAuth2ViewTouch.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/JGProgressHUD Resources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoogleCalendarApi/Pods-GoogleCalendarApi-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC65904C4533A4167A6737F5 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoogleCalendarApi/Pods-GoogleCalendarApi-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7BBE17D0DB1C70D98E44D35 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2AF92DC91CB17D5A00342ECF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35501FDF20FF3AFB0060A3D6 /* GCASplashViewController.m in Sources */,
+				2AF92E061CB1A29C00342ECF /* GCAAppDelegate.m in Sources */,
+				2AF92E091CB1A2AD00342ECF /* GCAFetchViewController.m in Sources */,
+				2AFA98661CB993B900925749 /* GCAEventsListViewController.m in Sources */,
+				2AF92E0D1CB1A6B300342ECF /* GCAEvent.m in Sources */,
+				2AF92DF21CB18FF500342ECF /* main.m in Sources */,
+				35501FE220FF3B340060A3D6 /* GCALoginViewController.m in Sources */,
+				2AFA98631CB9667E00925749 /* GCAEventsSearchResponse.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2AF92DE21CB17D5A00342ECF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2AF92DE31CB17D5A00342ECF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2AF92DE51CB17D5A00342ECF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACCB633F7AAEC12298C8FEA7 /* Pods-GoogleCalendarApi.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9N2Z33M7SN;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "GoogleCalendarApi/Sources/GoogleCalendarApi-Prefix.pch";
+				INFOPLIST_FILE = GoogleCalendarApi/Sources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vm.tgca;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2AF92DE61CB17D5A00342ECF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4254C3B66082A8991A20AFB8 /* Pods-GoogleCalendarApi.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9N2Z33M7SN;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "GoogleCalendarApi/Sources/GoogleCalendarApi-Prefix.pch";
+				INFOPLIST_FILE = GoogleCalendarApi/Sources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vm.tgca;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2AF92DC81CB17D5A00342ECF /* Build configuration list for PBXProject "GoogleCalendarApi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AF92DE21CB17D5A00342ECF /* Debug */,
+				2AF92DE31CB17D5A00342ECF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AF92DE41CB17D5A00342ECF /* Build configuration list for PBXNativeTarget "GoogleCalendarApi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AF92DE51CB17D5A00342ECF /* Debug */,
+				2AF92DE61CB17D5A00342ECF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2AF92DC51CB17D5A00342ECF /* Project object */;
+}

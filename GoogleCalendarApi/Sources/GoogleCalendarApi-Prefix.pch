@@ -1,0 +1,20 @@
+//
+//  GoogleCalendarApi-Prefix.pch
+//  GoogleCalendarApi
+//
+//  Created by Murali on 18/07/18.
+//
+
+#ifndef GoogleCalendarApi_Prefix_pch
+#define GoogleCalendarApi_Prefix_pch
+
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import <PureLayout/PureLayout.h>
+#import <HIPNetworking/HIPNetworkClient.h>
+#import <GoogleAPIClient/GTLCalendar.h>
+#import <GTMOAuth2/GTMOAuth2ViewControllerTouch.h>
+
+#endif /* GoogleCalendarApi_Prefix_pch */
